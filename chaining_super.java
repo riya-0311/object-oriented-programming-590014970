@@ -22,7 +22,7 @@ class C extends B {
     }
 }
 
-// Main class
+
 public class SuperChainingDemo {
     public static void main(String[] args) {
         C obj = new C();
