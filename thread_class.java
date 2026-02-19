@@ -19,12 +19,12 @@ public class thread_class {
         t1 a = new t1();
         t2 b = new t2();
         a.start();
-        try{
-        a.join();
-    }catch (InterruptedException e) {
-            e.printStackTrace();
+       try{
+         a.join();
+     }catch (InterruptedException e) {
+             e.printStackTrace();
 
-    }
+     }
         b.start();
         
     }
