@@ -10,10 +10,10 @@ public class character_stream {
             while((i = fr.read()) != -1) {
                 System.out.print((char)i);
             }
-        
+            fr.close();
         } catch (IOException e) {
             System.out.println(e)
-            fr.close();
+            
             System.out.println("AFTER UPDATING");
             try {
             FileWriter fw = new FileWriter("charfile.txt");
